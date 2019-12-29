@@ -23,7 +23,8 @@
     <!-- Body main wrapper start -->
     <div class="wrapper">
         @include('partials.navbar')
-
+        
+        @include('partials.MobileMenu')
 
         @yield('content')
 
